@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/thomas/projects/testeef/testeef.csproj": {}
+  },
+  "projects": {
+    "/home/thomas/projects/testeef/testeef.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/thomas/projects/testeef/testeef.csproj",
+        "projectName": "testeef",
+        "projectPath": "/home/thomas/projects/testeef/testeef.csproj",
+        "packagesPath": "/home/thomas/.nuget/packages/",
+        "outputPath": "/home/thomas/projects/testeef/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/thomas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
